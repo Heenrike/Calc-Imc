@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300;1,500&family=Open+Sans:ital,wght@0,500;0,600;1,500&display=swap");
+body {
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  max-width: 640px;
+  margin:  auto;
+  background-color: aliceblue;
+  padding: 0 20px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  overflow: hidden;
+  height: 100vh;
+}
+form input,
+form label,
+form button {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+form input {
+  font-size: 24px;
+  height: 30px;
+}
+
+form input:focus {
+  outline: 1px solid #353434;
+}
+form button {
+  border: none;
+  background-color: #353434;
+  color: bisque;
+  height: 40px;
+  cursor: pointer;
+}
+#IMC p{
+line-height: 20px;
+color: #353434;
+}
+#title{
+    text-align: center;
+    margin: 10px;
+}
+#name-imc{
+    color: black;
+ font-size: 1.6rem;
+ font-weight: 700;
+ line-height: 0px;
+ 
+}
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#resultado p{
+line-height: 20px;
+color: #353434;
+}
+#name-resultado{
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 0px;
+
+}
