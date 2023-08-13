@@ -4,29 +4,36 @@ body {
   outline: 0;
   margin: 0;
   padding: 0;
-  background-color: aquamarine;
+  background-color: rgb(95, 95, 95);
   font-family: "Open Sans", sans-serif;
+  margin:  auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .container {
-  max-width: 640px;
+  max-width: 440px;
   margin:  auto;
-  background-color: aliceblue;
-  padding: 0 20px;
+  background-color: rgba(240, 248, 255, 0.87);
   border-radius: 10px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   overflow: hidden;
-  height: 100vh;
+  align-items:  center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 form input,
 form label,
 form button {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 3px;
   width: 100%;
 }
 form input {
   font-size: 24px;
-  height: 30px;
+  height: 25px;
 }
 
 form input:focus {
@@ -42,16 +49,24 @@ form button {
 #IMC p{
 line-height: 20px;
 color: #353434;
+margin: 10px;
+display: flex ;
+justify-content: center;
+align-items: center;
 }
 #title{
     text-align: center;
     margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #name-imc{
     color: black;
  font-size: 1.6rem;
  font-weight: 700;
  line-height: 0px;
+ text-align: center;
  
 }
 #info{
@@ -62,11 +77,19 @@ color: #353434;
 #resultado p{
 line-height: 20px;
 color: #353434;
+margin: 10px;
+margin-left: 30px;
+display: flex ;
+justify-content: center;
+align-items: center;
+
 }
+
+
 #name-resultado{
     color: black;
     font-size: 1.6rem;
     font-weight: 700;
     line-height: 0px;
-
+    text-align: center;
 }
