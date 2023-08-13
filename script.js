@@ -10,7 +10,6 @@ function enviar(event) {
   let imc = peso / (altura * altura);
   let resultadoImc = document.querySelector("#resultadoImc");
   imc = imc.toFixed(1);
-  console.log(imc);
 
   if (imc <= 18.5) {
     resultadoImc.innerHTML = `<p>Seu IMC é ${imc} (Abaixo do peso)</p>`;
